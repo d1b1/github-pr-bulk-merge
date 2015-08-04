@@ -1,4 +1,4 @@
-# github-pr-bulk-merge
+# Github PRs Manager
 
 This is a helper function to allow a command line option to either run
 a number of Milestone PRs with specific git flags, or dump a script.
