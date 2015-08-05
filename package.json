@@ -1,6 +1,6 @@
 {
   "name": "Github-PR-Manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple script to allow the bulk CLI merge of Gh PRs.",
   "main": "index.js",
   "scripts": {
