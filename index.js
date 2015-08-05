@@ -1,4 +1,4 @@
-var GitHubApi = require("github");
+var GitHubApi = require('github');
 var _ = require('underscore');
 var util = require( "util" );
 var prompt = require('prompt');
@@ -37,7 +37,6 @@ var github = new GitHubApi({
     debug: false
 });
 
-console.log('sss', argv);
 github.authenticate({
     type: 'basic',
     username: argv.u,
@@ -50,8 +49,10 @@ github.pullRequests.getAll({
     milestone: argv.m
 }, function(err, prData) {
 
-    console.log('dddd', err);
-
+    if (err) {
+        return console.log(err);
+    }
+    
     console.log(util.format("There are %d in the milestone.", prData.length));
 
     var numOfPrs = prData.length;
