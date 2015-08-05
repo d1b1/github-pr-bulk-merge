@@ -5,9 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+   }
   },
-  "repository": "https://github.com/d1b1/github-pr-bulk-merge.git",
-  { "bin" : { "ghbulk" : "./index.js" } },
+  { "bin": { 
+    "ghbulk" : "./index.js" } 
+  },
   "author": "Stephan Smith",
   "license": "MIT",
   "dependencies": {
