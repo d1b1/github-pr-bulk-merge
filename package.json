@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "Simple script to allow the bulk CLI merge of Gh PRs.",
   "main": "index.js",
-  { "bin": { 
-    "ghbulk" : "./index.js" } 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+   }
+  },
+  "bin": { 
+    "ghbulk" : "./index.js"
   },
   "author": "Stephan Smith",
   "license": "MIT",
