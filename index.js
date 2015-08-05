@@ -89,7 +89,7 @@ github.pullRequests.getAll({
                 });
             }
         );
-    }, 1);git 
+    }, 1);
 
     q.drain = function() {
        console.log('All Done.');
